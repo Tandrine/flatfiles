@@ -1,5 +1,5 @@
 ---
-layout: cookie
+layout: legumes
 title: Afghan
 image_path: https://upload.wikimedia.org/wikipedia/commons/d/d1/AfghanBiscuit.jpg
 ---
