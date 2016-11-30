@@ -6,13 +6,13 @@ navigation_weight: 5
 <h3>Collection légumes</h3>
 {% for legumes in site.legumes %}
 	<div class="cookie">
-		<h2><a href="{{ legumes.url }}">{{ legumes.title }}</a></h2>
+		<h2><a href="{{ legumes.url | prepend:site.baseurl }}">{{ legumes.title }}</a></h2>
 	</div>
 {% endfor %}
 
 <h3>Collection autres</h3>
 {% for autres in site.autres %}
 	<div class="cookie">
-		<h2><a href="{{ autres.url }}">{{ autres.title }}</a></h2>
+		<h2><a href="{{ autres.url | prepend:site.baseurl }}">{{ autres.title }}</a></h2>
 	</div>
 {% endfor %}
