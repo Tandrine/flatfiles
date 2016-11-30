@@ -1,5 +1,5 @@
 ---
-layout: cookie
+layout: autres
 title: Ginger Nut
 image_path: https://upload.wikimedia.org/wikipedia/commons/f/fa/Freshly_baked_gingerbread_-_Christmas_2004.jpg
 ---
