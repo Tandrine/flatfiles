@@ -1,5 +1,10 @@
 title : Cours
 copyright : Par Jessica Licence ATC
+collections:
+  legumes:
+    output: true
+  autres:
+    output: true
 ---
 title : Bonzour les zens
 baseurl : /flatfiles
