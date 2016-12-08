@@ -5,11 +5,10 @@ navigation_weight: 7
 ---
 <h3>{{ site.data.football.name }}</h3>
 <ul>
-{% for clubs in site.data.football %}
-    <p> Clé : {{ clubs.key }}</p>
-    <p> Nom : {{ clubs.clubs.name }}</p>
-    <p> Code : {{ clubs.clubs.code }}</p>
+{% for ligue in site.data.football[1] %}
+    <p> Clé : {{ ligue.key }}</p>
+    <p> Nom : {{ ligue.name }}</p>
+    <p> Code : {{ ligue.code }}</p>
     <hr>
 {% endfor %}
 </ul>
-$ curl https://raw.githubusercontent.com/opendatajson/football.json/master/2016-17/fr.1.clubs.json
