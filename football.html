@@ -5,10 +5,12 @@ navigation_weight: 7
 ---
 <h3>{{ site.data.football.name }}</h3>
 <ul>
-{% for ligue in site.data.football[1] %}
-    <p> Clé : {{ ligue.key }}</p>
-    <p> Nom : {{ ligue.name }}</p>
-    <p> Code : {{ ligue.code }}</p>
-    <hr>
+{% for ligue in site.data.football %}
+    {% for club in ligue[1] %}
+        <p> Clé : {{ club.key }}</p>
+        <p> Nom : {{ club.name }}</p>
+        <p> Code : {{ club.code }}</p>
+        <hr>
+    {% endfor %}
 {% endfor %}
 </ul>
