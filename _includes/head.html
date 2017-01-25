@@ -7,6 +7,10 @@
         <link rel="stylesheet" href="{{ "/assets/css/style.css" | prepend: site.baseurl }}">
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        
+        {% for script in layout.head %}
+          {% include {{ script }} %}
+        {% endfor %}
 
         <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="ZTY4YTNjNDMtYzMzMi00YzEyLWJlYmItOWU5NWM1OGU2NDJiNjM2MjA5NDY0MDM3NDk1OTEw"></script>
 
