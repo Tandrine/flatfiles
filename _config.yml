@@ -5,6 +5,8 @@ collections:
     output: true
   autres:
     output: true
+  products:
+    output: true
 ---
 title : Bonzour les zens
 baseurl : /flatfiles
